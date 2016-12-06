@@ -1938,7 +1938,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #f32853;
+			background-color: #1E8BC3;
 			color: #ffffff !important;
 		}
 
@@ -1947,7 +1947,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f44066;
+				background-color: #125070;
 			}
 
 			input[type="submit"].special:active,
@@ -2722,7 +2722,8 @@
 
 		.wrapper > .inner {
 			margin: 0 auto;
-			width: 60em;
+			width: calc(100% - 6em);
+			max-width: 81em;
 		}
 
 		.wrapper.style2 {
@@ -2731,10 +2732,10 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), -moz-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/bottombg.png");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), -webkit-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/bottombg.png");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), -ms-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/bottombg.png");
-			background-image: linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/bottombg.png");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), -moz-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/mcibg1.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), -webkit-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/mcibg1.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), -ms-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/mcibg1.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/mcibg1.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3092,10 +3093,10 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), -moz-linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../../images/mcibg1.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), -webkit-linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../../images/mcibg1.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), -ms-linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../../images/mcibg1.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("../../images/mcibg1.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.22)), -moz-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.22)), url("../../images/mcibanner2.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.22)), -webkit-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.22)), url("../../images/mcibanner2.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.22)), -ms-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.22)), url("../../images/mcibanner2.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.22)), linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.22)), url("../../images/mcibanner2.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3192,12 +3193,12 @@
 
 	#footer {
 		padding: 8em 0 3em 0 ;
-		background-color: #292929;
+		background-color: #f6f6f6;
 		color: #a7a7a7;
 	}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #ffffff;
+			color: #000;
 		}
 
 		#footer header.major:after {
@@ -3222,7 +3223,7 @@
 		}
 
 		#footer .icon {
-			color: #ffffff;
+			color: #a7a7a7;
 		}
 
 		#footer .copyright {
@@ -3294,7 +3295,7 @@
   }
 
   .mapaddress {
-  	margin-bottom: 7em !important;
+  	margin-bottom: 3em !important;
   	color: rgba(255, 255, 255, .7);
   }
 
