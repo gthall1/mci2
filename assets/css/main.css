@@ -3308,7 +3308,7 @@
   }
 
   .popener {
-  	font-size: 1.5em;
+  	font-size: 1.25em;
   	line-height: 1.75em;
   }
 
@@ -3555,6 +3555,7 @@
 				height: 16em;
 			}
 
+
 		}
 
 
@@ -3639,15 +3640,17 @@
 		    display: block;
 		    margin: auto;
 			}
+
+			.popener {
+				font-size: 1.1em;
+
+			}
 }
 
 
 .noright {
 	padding-top: 2.9em !important;
 }
-
-
-
 
 
 
