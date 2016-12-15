@@ -3652,10 +3652,50 @@
 	padding-top: 2.9em !important;
 }
 
+.expertisetweaks1 {
+	padding-top: 7%;
+}
+
+.expertisetweaks2 {
+	padding-top: 4%;
+}
+
+.expertisetweaks3 {
+	padding-top: 4%;
+}
 
 
+@media screen and (max-width: 980px) {
 
+	.expertisetweaks1 {
+		padding-top: 11%;
+	}
 
+	.expertisetweaks2 {
+		padding-top: 9%;
+	}
+
+	.expertisetweaks3 {
+		padding-top: 9%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.expertisetweaks1 {
+		padding-top: 0;
+	}
+
+	.expertisetweaks2 {
+		padding-top: 0;
+	}
+
+	.expertisetweaks3 {
+		padding-top: 0;
+	}
+
+}
 
 
 
